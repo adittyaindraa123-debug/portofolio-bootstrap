@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portofolio - Vincensius Adit Indra Prasettia</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#beranda">Portofolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#menuUtama"
+          aria-controls="menuUtama"
+          aria-expanded="false"
+          aria-label="Buka menu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menuUtama">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#tentang">Tentang</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyek">Proyek</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#keahlian">Keahlian</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#kontak">Kontak</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header id="beranda" class="hero">
+      <div class="container">
+        <div class="row align-items-center g-4">
+          <div class="col-12 col-md-4 d-flex justify-content-center">
+            <div class="avatar">VA</div>
+          </div>
+          <div class="col-12 col-md-8 text-center text-md-start">
+            <h1 class="display-5 fw-bold">
+              Halo, saya Vincensius Adit Indra Prasettia
+            </h1>
+            <p class="lead text-secondary">
+              Mahasiswa Teknologi Informasi yang sedang belajar pemrograman
+              fullstack.
+            </p>
+            <a href="#proyek" class="btn btn-primary btn-lg me-2"
+              >Lihat Proyek</a
+            >
+            <a href="#kontak" class="btn btn-outline-light btn-lg"
+              >Hubungi Saya</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="tentang" class="py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-8 text-center">
+            <h2 class="mb-3">Tentang Saya</h2>
+            <p class="text-secondary">
+              Saya mahasiswa semester 3 Program Studi Teknologi Informasi,
+              Universitas 'Aisyiyah Yogyakarta, berasal dari Sleman, Yogyakarta.
+              Saya sedang belajar pemrograman fullstack, mulai dari HTML, CSS,
+              JavaScript, jQuery, hingga Bootstrap. Portofolio ini dibuat
+              sebagai tugas Praktikum 5.
+            </p>
+          </div>
+        </div>
+      </div>
+      <section id="proyek" class="py-5 bg-light">
+        <div class="container">
+          <h2 class="text-center mb-4">Proyek</h2>
+          <div class="row g-4">
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card h-100">
+                <img
+                  src="https://picsum.photos/300/200?random=1"
+                  class="card-img-top"
+                  alt="Tampilan proyek profil mahasiswa"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Profil Mahasiswa</h5>
+                  <p class="card-text">
+                    Kartu profil interaktif dengan jQuery: ubah tema, panel
+                    biodata, skill, dan kontak.
+                  </p>
+                  <a href="#" class="btn btn-primary mt-auto">Lihat Detail</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card h-100">
+                <img
+                  src="https://picsum.photos/300/200?random=2"
+                  class="card-img-top"
+                  alt="Tampilan proyek belajar jQuery"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Belajar jQuery</h5>
+                  <p class="card-text">
+                    Latihan event dan efek jQuery: ubah warna, sembunyikan,
+                    tampilkan, dan animasi.
+                  </p>
+                  <a href="#" class="btn btn-primary mt-auto">Lihat Detail</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card h-100">
+                <img
+                  src="https://picsum.photos/300/200?random=3"
+                  class="card-img-top"
+                  alt="Tampilan proyek portofolio"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Portofolio Bootstrap</h5>
+                  <p class="card-text">
+                    Website portofolio responsif yang dibuat dengan Bootstrap
+                    5.3.8.
+                  </p>
+                  <a href="#" class="btn btn-primary mt-auto">Lihat Detail</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section id="keahlian" class="py-5">
+      <div class="container text-center">
+        <h2 class="mb-4">Keahlian</h2>
+        <button class="btn btn-danger m-1">HTML &amp; CSS</button>
+        <button class="btn btn-warning text-dark m-1">
+          JavaScript &amp; jQuery
+        </button>
+        <button class="btn btn-primary m-1">PHP &amp; MySQL</button>
+        <button class="btn btn-success m-1">Bootstrap</button>
+        <button class="btn btn-dark m-1">Git &amp; GitHub</button>
+      </div>
+    </section>
+
+    <section id="kontak" class="py-5 bg-light">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-8 col-lg-6">
+            <h2 class="text-center mb-4">Kontak</h2>
+            <form>
+              <div class="mb-3">
+                <label for="nama" class="form-label">Nama</label>
+                <input
+                  type="text"
+                  id="nama"
+                  class="form-control"
+                  placeholder="Masukkan nama"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  class="form-control"
+                  placeholder="Masukkan email"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Pesan</label>
+                <textarea
+                  id="pesan"
+                  class="form-control"
+                  rows="3"
+                  placeholder="Tulis pesan"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-success">Kirim</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-dark text-white text-center py-3">
+      <div class="container">
+        <small
+          >&copy; 2026 Vincensius Adit Indra Prasettia - Praktikum 5 Pemrograman
+          Fullstack</small
+        >
+      </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
